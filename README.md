@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# Innova Physics Background
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado con **Vite**, **React** y **TypeScript**. Su objetivo es proporcionar un fondo dinámico para la página web de **Innova Physics**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Vite](https://vitejs.dev/) 
+- [React](https://react.dev/) 
+- [TypeScript](https://www.typescriptlang.org/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Instalación y Uso
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clona el repositorio:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+   ```sh
+   https://github.com/jmnu4245/animatedcurves.git
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Accede al directorio del proyecto:
+
+   ```sh
+   cd animatedcurves
+   ```
+
+3. Instala las dependencias:
+
+   ```sh
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```sh
+   npm run dev
+   ```
+
+5. Abre tu navegador en:
+
+   ```
+   http://localhost:5173
+   ```
+
+## 🔗 Enlace de Producción
+
+Puedes ver el fondo en acción en:
+[https://jmnu4245.github.io/animatedcurves/](https://jmnu4245.github.io/animatedcurves/)
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
+

@@ -1,53 +1,50 @@
 # Innova Physics Background
 
-Este es un proyecto desarrollado con **Vite**, **React** y **TypeScript**. Su objetivo es proporcionar un fondo dinámico para la página web de **Innova Physics**.
+This is a project developed with **Vite**, **React**, and **TypeScript**. Its goal is to provide a dynamic background for the **Innova Physics** website.
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Technologies Used
 
-- [Vite](https://vitejs.dev/) 
-- [React](https://react.dev/) 
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+## 📦 Installation and Usage
 
-
-## 📦 Instalación y Uso
-
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```sh
    https://github.com/jmnu4245/animatedcurves.git
    ```
 
-2. Accede al directorio del proyecto:
+2. Navigate to the project directory:
 
    ```sh
    cd animatedcurves
    ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
 
    ```sh
    npm install
    ```
 
-4. Inicia el servidor de desarrollo:
+4. Start the development server:
 
    ```sh
    npm run dev
    ```
 
-5. Abre tu navegador en:
+5. Open your browser at:
 
    ```
    http://localhost:5173
    ```
 
-## 🔗 Enlace de Producción
+## 🔗 Production Link
 
-Puedes ver el fondo en acción en:
+You can see the background in action at:
 [https://jmnu4245.github.io/animatedcurves/](https://jmnu4245.github.io/animatedcurves/)
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia **MIT**.
-
+This project is under the **MIT** license.
